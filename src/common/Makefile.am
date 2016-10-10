@@ -70,6 +70,7 @@ noinst_HEADERS = \
                  writefile.h \
                  filepath.h \
                  binsearch.h \
+                 cli.h \
                  $(EMPTY)
 
 libcommon_la_SOURCES = \
@@ -95,4 +96,5 @@ libcommon_la_SOURCES = \
                        readfile.cpp \
                        writefile.cpp \
                        filepath.cpp \
+		       cli.cpp \
                        $(EMPTY)
